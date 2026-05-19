@@ -23,11 +23,19 @@ reference: https://github.com/gemini-cli-extensions/workspace
 
 ## Install
 
+Clone and build locally:
+
 ```bash
 git clone https://github.com/trisetiohidayat/google-drive-mcp-agent.git
 cd google-drive-mcp-agent
 npm install
 npm run build
+```
+
+Or install from GitHub with npm in your own project:
+
+```bash
+npm install github:trisetiohidayat/google-drive-mcp-agent
 ```
 
 ## Authentication
@@ -119,6 +127,15 @@ Add this to `~/.codex/config.toml`:
 [mcp_servers.google_drive]
 command = "node"
 args = ["/ABSOLUTE/PATH/google-drive-mcp-agent/dist/index.js"]
+env = { GOOGLE_OAUTH_CREDENTIALS = "/ABSOLUTE/PATH/authorized_user.json" }
+```
+
+Alternative Codex config using `npx` directly from GitHub:
+
+```toml
+[mcp_servers.google_drive]
+command = "npx"
+args = ["--yes", "github:trisetiohidayat/google-drive-mcp-agent"]
 env = { GOOGLE_OAUTH_CREDENTIALS = "/ABSOLUTE/PATH/authorized_user.json" }
 ```
 
