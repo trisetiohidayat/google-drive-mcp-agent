@@ -1,0 +1,11 @@
+google-drive-mcp-agent
+
+This project is an independent, agent-agnostic Google Drive MCP server.
+It is not an official Google, Gemini CLI, Anthropic, or OpenAI product.
+
+Source inspiration and compatibility reference:
+https://github.com/gemini-cli-extensions/workspace
+
+The referenced Google Workspace Extension for Gemini CLI is licensed under
+Apache License 2.0. This repository is a new implementation focused on
+read-only Google Drive tools for generic MCP clients.

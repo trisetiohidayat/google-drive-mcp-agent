@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.env
+.env.*
+*.log
+credentials*.json
+token*.json
+authorized_user*.json
+.DS_Store
