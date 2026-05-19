@@ -3,9 +3,19 @@
 This is not legal advice. Review the licenses and service terms with counsel
 before using this project in a commercial, regulated, or customer-facing system.
 
-## License
+## License Boundaries
 
-This project is licensed under the Apache License 2.0.
+There are two separate license contexts:
+
+1. This repository (`trisetiohidayat/google-drive-mcp-agent`) is licensed by
+   its repository owner under Apache License 2.0.
+2. The upstream reference repository
+   (`gemini-cli-extensions/workspace`) is separately licensed by its upstream
+   authors under Apache License 2.0.
+
+The Apache 2.0 license in this repository applies to this repository's own
+source code. The upstream project's Apache 2.0 license remains attached to the
+upstream project and to any upstream code copied or derived from it.
 
 Apache 2.0 generally permits use, modification, distribution, and sublicensing,
 including use outside Gemini CLI, as long as the license obligations are
@@ -24,8 +34,9 @@ inspiration and compatibility notes taken from:
 
 - https://github.com/gemini-cli-extensions/workspace
 
-The referenced project is the Google Workspace Extension for Gemini CLI and is
-licensed under Apache 2.0 at the time this repository was created.
+The referenced project is the Google Workspace Extension for Gemini CLI. Its
+Apache 2.0 license is the upstream license for that upstream project, not a
+claim that Google, Gemini CLI, or the upstream authors endorse this repository.
 
 ## Google API Terms
 
