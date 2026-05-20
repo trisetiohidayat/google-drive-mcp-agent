@@ -42,6 +42,12 @@ npm install github:trisetiohidayat/google-drive-mcp-agent
 
 Provide credentials in one of two ways.
 
+OAuth consent screen branding is controlled by the Google Cloud OAuth client
+that created the refresh token. If the token was created through the upstream
+Gemini CLI Google Workspace extension, Google may show a consent screen branded
+for Gemini CLI / the Google Workspace extension. For details and source notes,
+see [AUTHORIZATION.md](AUTHORIZATION.md).
+
 ### Option A: Authorized User JSON
 
 Set `GOOGLE_OAUTH_CREDENTIALS` to a JSON file outside this repository:

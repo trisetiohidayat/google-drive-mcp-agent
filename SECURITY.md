@@ -20,6 +20,9 @@ Treat it as security-sensitive infrastructure.
 - Use the least-privilege Drive scope that still satisfies your use case.
 - Rotate credentials immediately if exposed to logs, prompts, chat history, or
   source control.
+- Verify which OAuth client created a refresh token before sharing it with an
+  agent. Consent screen branding and user trust belong to that OAuth client,
+  not to this MCP server. See `AUTHORIZATION.md`.
 
 Recommended read-only scopes:
 

@@ -53,6 +53,12 @@ including:
 OAuth consent screens, requested scopes, user disclosure, storage, retention,
 and deletion of Google user data must match the actual system behavior.
 
+If credentials are produced through the upstream Gemini CLI Google Workspace
+extension OAuth flow, the Google consent screen can be branded for that
+upstream OAuth application. This repository does not own that OAuth client.
+Use a dedicated OAuth client for deployments that should present their own app
+identity. See `AUTHORIZATION.md`.
+
 ## Trademark
 
 Google Drive, Google Workspace, Gemini, Claude, Codex, Anthropic, and OpenAI are
